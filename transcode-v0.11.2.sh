@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-# !!IMPORTANT!!:For Demo/Sample Purpose Only; (c) Sanjeev Pandey 2020: Works Best In LINUX server!!
-# __description__: Script to transcode Mp4 to MBR Mp4
+# !!IMPORTANT!!:For Demo/Sample Purpose Only; Works best In LINUX server!!
+# __description__: Script to transcode Mp4 to Production-Ready MBR Mp4
 # __version__: 0.11.2
 # __author__: Sanjeev Pandey
 
 set -e
 
-# Usage bash <script> SOURCE_FILE [OUTPUT_NAME]
-[[ ! "${1}" ]] && echo "Usage: create-vod-hls.sh SOURCE_FILE [OUTPUT_NAME]" && exit 1
+# Usage bash transcode-v0.11.2.sh SOURCE_FILE [OUTPUT_NAME]
+[[ ! "${1}" ]] && echo "Usage: transcode-v0.11.2.sh SOURCE_FILE [OUTPUT_NAME]" && exit 1
 
 # comment/add lines here to control which renditions would be created
 renditions=(
